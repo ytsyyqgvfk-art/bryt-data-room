@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #222;
+}
+
+header {
+    background: #071b38;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    color: #00d4ff;
+    font-size: 30px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #071b38, #0879bd);
+    color: white;
+    text-align: center;
+    padding: 55px 15px;
+}
+
+.hero h2 {
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #0001;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #071b38;
+}
+
+label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.price {
+    margin: 25px 0;
+    font-size: 21px;
+    font-weight: bold;
+    color: #0879bd;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #0879bd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #071b38;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #071b38;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}

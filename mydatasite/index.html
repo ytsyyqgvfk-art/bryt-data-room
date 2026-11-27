@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BRYT DATA DEALS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>BRYT DATA DEALS</h1>
+
+    <p>Your Trusted Data Plug</p>
+
+</header>
+
+<section class="hero">
+
+    <h2>Buy Affordable Data Bundles</h2>
+
+    <p>Fast, Reliable and Affordable Data</p>
+
+</section>
+
+<main class="container">
+
+    <h2>Place Your Order</h2>
+
+    <form id="orderForm">
+
+        <label>Full Name</label>
+
+        <input type="text" id="customer" required
+
+        placeholder="Enter your name">
+
+        <label>Phone Number</label>
+
+        <input type="tel" id="phone" required
+
+        placeholder="Enter phone number">
+
+        <label>Select Network</label>
+
+        <select id="network" required>
+
+            <option value="">Choose Network</option>
+
+            <option value="MTN">MTN</option>
+
+            <option value="Telecel">Telecel</option>
+
+            <option value="AT">AT</option>
+
+        </select>
+
+        <label>Select Data Bundle</label>
+
+        <select id="bundle" required>
+
+            <option value="">Choose Bundle</option>
+
+            <option value="1">1 GB</option>
+
+            <option value="2">2 GB</option>
+
+            <option value="3">3 GB</option>
+
+            <option value="4">4 GB</option>
+
+            <option value="5">5 GB</option>
+
+            <option value="10">10 GB</option>
+
+        </select>
+
+        <label>Payment Method</label>
+
+        <select id="payment" required>
+
+            <option value="">Choose Payment</option>
+
+            <option>MTN MoMo</option>
+
+            <option>Telecel Cash</option>
+
+            <option>AT Money</option>
+
+        </select>
+
+        <div class="price">
+
+            Total: GH₵ <span id="total">0.00</span>
+
+        </div>
+
+        <button type="submit">Place Order</button>
+
+    </form>
+
+    <div id="message"></div>
+
+</main>
+
+<footer>
+
+    <p>© 2026 BRYT DATA DEALS</p>
+
+    <p>Affordable Data, Reliable Service.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
